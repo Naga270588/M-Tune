@@ -1,6 +1,6 @@
 # M-Tune : Mean Based Optimized Thresholding Tuning
 This is an implementation of M-Tune Thresholding Shifting Method. 
-This method is based on the mean probablities value. In the Direc-M-Tune,
+This method is based on the mean probablities value. In the Direct-M-Tune,
 the classifier model is trained with training data and the prediction probablities
 are extracted. The mean of the prediction probablities is the new threshold for the input data.
 
