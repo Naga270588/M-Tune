@@ -26,9 +26,7 @@ The method was implemented for 6 cell-lines for 11 fingerprints.
 
 3. **M-tune Example**:
 
-    As an example M-Tune has been implemented for `TGF-B Cell-line` in notebooks `DIRECT-M-Tune.ipynb` and `ENSEMBLE-M-Tune.ipynb`.
-	DIRECT-M-Tune.ipynb: Identification of threshold and classification based on single input data. 
-	ENSEMBLE-M-Tune.ipynb: Identification of threshold and classification based on small k-subsets and majority voting. 
+As an example M-Tune has been implemented for TGF-B Cell-line in notebooks DIRECT-M-Tune.ipynb and ENSEMBLE-M-Tune.ipynb. DIRECT-M-Tune.ipynb: Identification of threshold and classification based on single input data. ENSEMBLE-M-Tune.ipynb: Identification of threshold and classification based on small k-subsets and majority voting. M-Tune_example_usage.ipynb: Installation of Mtune python package and example usage with XGBclassifier. 
 	
 	
 2. **Calculate_fps.ipynb** :  
