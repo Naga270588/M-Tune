@@ -27,9 +27,12 @@ The method was implemented for 6 cell-lines for 11 fingerprints.
 3. **M-tune Example**:
 
 As an example M-Tune has been implemented for TGF-B Cell-line in notebooks DIRECT-M-Tune.ipynb and ENSEMBLE-M-Tune.ipynb. DIRECT-M-Tune.ipynb: Identification of threshold and classification based on single input data. ENSEMBLE-M-Tune.ipynb: Identification of threshold and classification based on small k-subsets and majority voting. M-Tune_example_usage.ipynb: Installation of Mtune python package and example usage with XGBclassifier. 
+
+4. **Reproduce the results**:
+   PERFORM_MTUNE_FOR_EACH_CELL_LINE.ipynb: Reproduce the results reported in the manuscript. 
 	
 	
-2. **Calculate_fps.ipynb** :  
+5. **Calculate_fps.ipynb** :  
 
     This notebook contains code for downloading or Calulating the 11 Fingerprints considered for the cyto-toxicity cell-line datasets.
 	
@@ -49,6 +52,6 @@ As an example M-Tune has been implemented for TGF-B Cell-line in notebooks DIREC
 
 
 
-4. **Libraries used**:
+6. **Libraries used**:
 
     The necessary libraries used in this implementation has been listed in the `reqs.txt` file.
