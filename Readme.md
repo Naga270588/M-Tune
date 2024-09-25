@@ -1,6 +1,6 @@
 # M-Tune : Mean Based Optimized Thresholding Tuning
 This is an implementation of M-Tune Thresholding Shifting Method. 
-This method is based on the mean probablities value. In the Direc-M-Tune,
+This method is based on the mean probablities value. In the Direct-M-Tune,
 the classifier model is trained with training data and the prediction probablities
 are extracted. The mean of the prediction probablities is the new threshold for the input data.
 
@@ -26,12 +26,13 @@ The method was implemented for 6 cell-lines for 11 fingerprints.
 
 3. **M-tune Example**:
 
-    As an example M-Tune has been implemented for `TGF-B Cell-line` in notebooks `DIRECT-M-Tune.ipynb` and `ENSEMBLE-M-Tune.ipynb`.
-	DIRECT-M-Tune.ipynb: Identification of threshold and classification based on single input data. 
-	ENSEMBLE-M-Tune.ipynb: Identification of threshold and classification based on small k-subsets and majority voting. 
+As an example M-Tune has been implemented for TGF-B Cell-line in notebooks DIRECT-M-Tune.ipynb and ENSEMBLE-M-Tune.ipynb. DIRECT-M-Tune.ipynb: Identification of threshold and classification based on single input data. ENSEMBLE-M-Tune.ipynb: Identification of threshold and classification based on small k-subsets and majority voting. M-Tune_example_usage.ipynb: Installation of Mtune python package and example usage with XGBclassifier. 
+
+4. **Reproduce the results**:
+   PERFORM_MTUNE_FOR_EACH_CELL_LINE.ipynb: Reproduce the results reported in the manuscript. 
 	
 	
-2. **Calculate_fps.ipynb** :  
+5. **Calculate_fps.ipynb** :  
 
     This notebook contains code for downloading or Calulating the 11 Fingerprints considered for the cyto-toxicity cell-line datasets.
 	
@@ -51,6 +52,6 @@ The method was implemented for 6 cell-lines for 11 fingerprints.
 
 
 
-4. **Libraries used**:
+6. **Libraries used**:
 
     The necessary libraries used in this implementation has been listed in the `reqs.txt` file.
